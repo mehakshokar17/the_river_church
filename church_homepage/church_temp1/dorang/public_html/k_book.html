@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookshelf Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="k_book.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="k_library.css">
+</head>
+<body>
+    
+	<div class="header">
+        <h1>Bookshelf</h1>
+	</div>
+	<div class="topnav">
+		<a href="k_library.html">Home</a>
+		<a href="K_book.html">Books</a>
+		<a href="K_songs.html">Songs</a>
+        <div class="search-container">
+            <form action="/search">
+              <input type="text" placeholder="Search books" name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+	</div>
+
+<section>
+  <h1 style="color: whitesmoke;">Books Table</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Book Name</th>
+        <th>Author</th>
+        <th>Download</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bible In English</td>
+        <td></td>
+        <td><a href="https://drive.google.com/file/d/1vR-z3N0-94AvIeQFmD3IzlWYIvb6T7fh/view?usp=share_link">Download</a></td>
+      </tr>
+      <tr>
+        <td>Bible in Hindi</td>
+        <td></td>
+        <td><a href="https://drive.google.com/file/d/1iQ6drhWXbfgCyBbmcjbWFOqSMbtpmSLp/view?usp=share_link">Download</a></td>
+      </tr>
+      <tr>
+        <td>Bible in Kannada</td>
+        <td></td>
+        <td><a href="https://drive.google.com/file/d/1oBqQgXguTyOcu7kaV3FqVGn_c9TZTH--/view?usp=share_link">Download</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="upload-btn-wrapper">
+    <button class="btn">Upload a Book</button>
+    <input type="file" name="book" />
+  </div>
+</section>
+</body>
+</html>

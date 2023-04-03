@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookshelf Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="k_book.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="k_library.css">
+</head>
+<body>
+    
+	<div class="header">
+        <h1>Bookshelf</h1>
+	</div>
+	<div class="topnav">
+        <a href="k_library.html">Home</a>
+		<a href="k_book.html">Books</a>
+		<a href="k_songs.html">Songs</a>
+        <div class="search-container">
+            <form action="/search">
+              <input type="text" placeholder="Search songs" name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+	</div>
+
+<section>
+  <h1 style="color: whitesmoke;">SONGS</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Song Name</th>
+        <th>Singer</th>
+        <th>Download</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Amazing Grace (My Chains Are Gone)</td>
+        <td>Chris Tomlin</td>
+        <td><a href="https://drive.google.com/file/d/1kK6qa-UaxF_BQ0MsXst2NaUKNFuVBuGv/view?usp=share_link">Download</a></td>
+      </tr>
+      <tr>
+        <td>Holy Forever</td>
+        <td>Chris Tomlin</td>
+        <td><a href="https://drive.google.com/file/d/1nwGTP51BSQz-3j4gJ0B_bGmRqIFvgEA3/view?usp=share_link">Download</a></td>
+      </tr>
+      <tr>
+        <td>How Great Is Our God</td>
+        <td>Chris Tomlin</td>
+        <td><a href="https://drive.google.com/file/d/1ALekhDygnwL4lURwBPZC_LWyzwnCFI1z/view?usp=share_link">Download</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="upload-btn-wrapper">
+    <button class="btn">Upload a song</button>
+    <input type="file" name="book" />
+  </div>
+</section>
+</body>
+</html>
